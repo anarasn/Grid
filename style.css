@@ -1,0 +1,33 @@
+body{
+    margin:0 ;
+    padding: 0;
+}
+.container{
+   width: 70%;
+   margin: 120px auto;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+   color:  black;
+   
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 75px 200px 200px 75px;
+    gap: 10px;
+}
+header{
+    background-color: green;
+}
+main{
+    background-color: hsl(120, 12%, 27%);
+}
+section{
+    background-color: rgb(80, 238, 80);
+}
+footer{
+    background-color: limegreen;
+}
+aside{
+    background-color: lightgreen; grid-row: 2/4; grid-column: 2/2
+}
+header, footer{grid-column: 1/3; } 
